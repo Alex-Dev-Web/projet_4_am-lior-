@@ -1052,20 +1052,24 @@ h4 {
     width: 180px;
     height: 320px;
   }
+  .bloc-mob-center-text {
+    text-align: center;
+  }
+  .portfolio-thumb {
+    margin: auto;
+    text-align: center;
+  }
 }
 
-@media (max-width: 425px) {
+@media only screen and (max-width: 425px) {
   .bloc {
     padding-left: 0;
     padding-right: 0;
   }
   img {
     width: auto;
+    margin: auto;
   }
 }
 
-@media (max-width: 768px) {
-  .bloc-mob-center-text {
-    text-align: center;
-  }
-}
+
