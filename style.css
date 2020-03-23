@@ -667,6 +667,9 @@ a[data-lightbox]:hover img {
   color: #ffffff;   /*css ajouté*/
 }
 
+.col-sm-6 {
+  text-align: center;
+}
 h1,
 h2,
 h3,
@@ -1057,6 +1060,9 @@ h4 {
   }
   .portfolio-thumb {
     margin: auto;
+    text-align: center;
+  }
+  .col-sm-6 {
     text-align: center;
   }
 }
