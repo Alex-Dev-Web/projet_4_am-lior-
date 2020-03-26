@@ -205,7 +205,7 @@ a:hover {
   color: rgba(0, 0, 0, 0.5);
 }
 /*css ajouté*/
-#text_description {
+#text_description, #text_description_2, #text_contact {
   font-size: 22px;
 }
 
@@ -459,7 +459,7 @@ nav .caret {
   float: right;
 }
 
-.mg-md {
+.mg-md{
   margin-top: 10px;
   margin-bottom: 20px;
 }
@@ -672,16 +672,13 @@ a[data-lightbox]:hover img {
 }
 h1,
 h2,
-h3,
-h5,
-h6,
 p,
 label,
 .btn,
 a {
   font-family: "helvetica";
   font-weight: 400;
-  color: #150101 !important;  /*couleur de police modifiée */
+  color: #050505 !important;  /*couleur de police modifiée */  /* suppression de h4 à h6 (absent dans le code html*/
 }
 
 
@@ -708,7 +705,11 @@ a {
 }
 
 p {
-  font-size: 11px;
+  font-size: 17px;
+}
+
+a {
+  font-size: 18px;
 }
 
 .tight-width-whitespace {
@@ -719,6 +720,7 @@ p {
 .h1 {
   font-size: 20px;
   font-family: "Open Sans";
+  color: #333333 !important;
 }
 
 .cta-hero {
@@ -741,24 +743,16 @@ h2 {
 }
 
 h3 {
-  font-size: 15px;
+  font-size: 17px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #333333 !important;
+  color: #050505 !important;
 }
 
 .med-width-whitespace {
   max-width: 800px;
   margin: auto auto auto auto;
   box-shadow: 0px 0px 0px #000000;
-}
-
-h1 {
-  color: #333333 !important;
-}
-
-h4 {
-  color: #fffefe !important;
 }
 
 .icons {
